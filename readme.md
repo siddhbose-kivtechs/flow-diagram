@@ -12,7 +12,7 @@ flowchart LR
     Router["fa:fa-random <i class="fa-solid fa-shield-halved"></i>router_1 {macro service}"]:::blueStyle
     Gemini["fab:fa-google fa:fa-brain  GEMINI_SERVER"]:::pinkStyle
     Azure["fa:fa-cloud fab:fa-microsoft AZURE_OPEN_AI server"]:::greenStyle
-    Orchestor["fa:fa-eye orchestor {tier 0}"]:::yellowStyle
+    
 
     GClient <-->|auth, ulid, appid| GBackend
     OClient <--> |auth, ulid, appid| OBackend
